@@ -1,0 +1,7 @@
+{
+  "name": "Transakto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
