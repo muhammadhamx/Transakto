@@ -22,6 +22,11 @@ export const routes: Routes = [
           import('../sales/sales.page').then((m) => m.SalesPage),
       },
       {
+        path: 'reports',
+        loadComponent: () =>
+          import('../reports/reports.page').then((m) => m.ReportsPage),
+      },
+      {
         path: '',
         redirectTo: '/tabs/dashboard',
         pathMatch: 'full',

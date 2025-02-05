@@ -3,10 +3,10 @@ import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/stan
 
 
 @Component({
-  selector: 'app-tab2',
+  selector: 'app-products',
   templateUrl: 'products.page.html',
   styleUrls: ['products.page.scss'],
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent]
+  imports: [IonHeader, IonToolbar, IonTitle]
 })
 export class ProductsPage {
 

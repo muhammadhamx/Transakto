@@ -8,7 +8,7 @@ import { IonContent, IonHeader, IonTitle, IonToolbar } from '@ionic/angular/stan
   templateUrl: './reports.page.html',
   styleUrls: ['./reports.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class ReportsPage implements OnInit {
 
